@@ -122,10 +122,15 @@ class ProfileScreen extends ConsumerWidget {
     return state.isLoading
         ? Material(
             child: Center(
-              child: Text(
-                locale.pdfReady,
-                textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 24),
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(locale.pdfReady, style: const TextStyle(fontSize: 25)),
+                    LinearProgressIndicator(value: state.progress, minHeight: 5),
+                  ],
+                ),
               ),
             ),
           )

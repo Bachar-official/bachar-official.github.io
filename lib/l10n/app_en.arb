@@ -42,7 +42,7 @@
     "tgLink": "https://t.me/Bachar_official",
     "emailLink": "mailto:ibacharnikov@gmail.com",
     "githubLink": "https://github.com/Bachar-official",
-    "pdfReady": "The CV is almost ready.\nPlease wait.",
+    "pdfReady": "PDF generation...",
     "softSkills": "Soft skills",
     "allSoftSkills": "Public speaking,Teaching,Self-learning,Responsibility,Determination,Enthusiasm",
     "pdfFlutterExp0": "Cinimex:Senior Developer:Implemented a corporate mobile app storage system (Flutter + Dart + PostgreSQL) - APK/IPA recognition, admin panel, update tracking;Developed a mobile app for a merch store from scratch using Flutter with CI/CD via GitLab Runner;Participated in pre-sales and solution architecture design;Developed and supported a corporate UI kit;Configured CI/CD (GitLab Runner, GitHub Workflow);Conducted code reviews, interviews, and mentoring;Served as a leader of the Flutter community within the company (meetups, implementation of new practices);Supervised student pre-graduation internships (OpenAPI/Swagger for frontend):2019-10-01",

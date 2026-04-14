@@ -353,7 +353,7 @@ abstract class AppLocalizations {
   /// No description provided for @pdfReady.
   ///
   /// In en, this message translates to:
-  /// **'The CV is almost ready.\nPlease wait.'**
+  /// **'PDF generation...'**
   String get pdfReady;
 
   /// No description provided for @softSkills.

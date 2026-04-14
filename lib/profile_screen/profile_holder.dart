@@ -21,6 +21,10 @@ class ProfileHolder extends StateNotifier<ProfileState> {
   }
 
   void setIsLoading(bool isLoading) {
-    state = state.copyWith(isLoading: isLoading);
+    state = state.copyWith(isLoading: isLoading, progress: 0);
+  }
+
+  void setProgress(double progress) {
+    state = state.copyWith(progress: progress);
   }
 }

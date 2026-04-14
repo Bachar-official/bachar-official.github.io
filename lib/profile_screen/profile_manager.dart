@@ -27,7 +27,8 @@ class ProfileManager {
       GlobalKey<HideableWidgetState>();
   final GlobalKey<HideableWidgetState> projectsK =
       GlobalKey<HideableWidgetState>();
-      final GlobalKey<HideableWidgetState> softSkillsK = GlobalKey<HideableWidgetState>();
+  final GlobalKey<HideableWidgetState> softSkillsK =
+      GlobalKey<HideableWidgetState>();
 
   void setThemes(Themes theme) {
     holder.setThemes(theme);
@@ -55,7 +56,17 @@ class ProfileManager {
 
   Future<void> downloadCV({bool isFlutter = false}) async {
     holder.setIsLoading(true);
-    await downloadResume(scaffoldKey, isFlutter);
+    await downloadResumeWithProgress(
+      scaffoldKey: scaffoldKey,
+      isFlutter: isFlutter,
+      onProgress: holder.setProgress,
+      onComplete: () => holder.setIsLoading(false),
+      onError: (error) => scaffoldKey.currentState!.showSnackBar(
+        SnackBar(
+          content: Text(error),
+        ),
+      ),
+    );
     holder.setIsLoading(false);
   }
 
@@ -66,14 +77,16 @@ class ProfileManager {
         coursesK.currentState != null &&
         languagesK.currentState != null &&
         hobbiesK.currentState != null &&
-        projectsK.currentState != null && softSkillsK.currentState != null) {
+        projectsK.currentState != null &&
+        softSkillsK.currentState != null) {
       holder.setIsCollapsed(experienceK.currentState!.isCollapsed &&
           educationK.currentState!.isCollapsed &&
           skillsK.currentState!.isCollapsed &&
           coursesK.currentState!.isCollapsed &&
           languagesK.currentState!.isCollapsed &&
           hobbiesK.currentState!.isCollapsed &&
-          projectsK.currentState!.isCollapsed && softSkillsK.currentState!.isCollapsed);
+          projectsK.currentState!.isCollapsed &&
+          softSkillsK.currentState!.isCollapsed);
     } else {
       holder.setIsCollapsed(true);
     }

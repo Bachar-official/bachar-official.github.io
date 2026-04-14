@@ -144,7 +144,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get githubLink => 'https://github.com/Bachar-official';
 
   @override
-  String get pdfReady => 'The CV is almost ready.\nPlease wait.';
+  String get pdfReady => 'PDF generation...';
 
   @override
   String get softSkills => 'Soft skills';

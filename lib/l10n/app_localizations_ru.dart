@@ -144,7 +144,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get githubLink => 'https://github.com/Bachar-official';
 
   @override
-  String get pdfReady => 'Резюме почти готово.\nПожалуйста, подождите.';
+  String get pdfReady => 'Генерация PDF...';
 
   @override
   String get softSkills => 'Метанавыки';
