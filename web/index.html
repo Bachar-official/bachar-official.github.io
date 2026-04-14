@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A resume page">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="profile">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>profile</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <!-- 🔹 Loading placeholder -->
+  <div id="loading">
+    <style>
+      body {
+        margin: 0;
+        background: #ffffff;
+      }
+
+      #loading {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .dots {
+        display: flex;
+        gap: 10px;
+      }
+
+      .dots div {
+        width: 10px;
+        height: 10px;
+        background: #333;
+        border-radius: 50%;
+        animation: bounce 0.6s infinite alternate;
+      }
+
+      .dots div:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+
+      .dots div:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+
+      @keyframes bounce {
+        to {
+          transform: translateY(-10px);
+          opacity: 0.3;
+        }
+      }
+
+      .status {
+        position: absolute;
+        bottom: 20%;
+        font-family: monospace;
+        font-size: 14px;
+        color: #555;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+
+    <div class="dots">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="status" id="status"></div>
+  </div>
+
+  <!-- 🔹 Fun loading messages -->
+  <script>
+    const messages = [
+      "Counting to infinity...",
+      "Waiting for UDP packet confirmation...",
+      "Mutating StatelessWidget...",
+      "Reticulating splines...",
+      "Compiling feelings...",
+      "Aligning pixels...",
+      "Resolving dependencies (again)...",
+      "Feeding the garbage collector...",
+      "Inlining everything...",
+      "Summoning async spirits...",
+      "Optimizing nothing...",
+      "Painting widgets...",
+      "Rebuilding the widget tree...",
+      "Hot reloading reality...",
+      "Fetching coffee...",
+      "Warming up shaders...",
+      "Checking null safety...",
+      "Eliminating bugs (creating new ones)...",
+      "Parsing the void...",
+      "Negotiating with the event loop...",
+      "Waiting for the future...",
+      "Breaking the build...",
+      "Fixing the build...",
+      "Pretending to be fast...",
+      "Downloading more RAM...",
+      "Polishing UI pixels...",
+      "Running in circles...",
+      "Asking Stack Overflow...",
+      "Ignoring warnings...",
+      "Trusting the compiler...",
+      "Loading awesome stuff..."
+    ];
+
+    const statusEl = document.getElementById('status');
+
+    function randomMessage() {
+      return messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    function typeText(el, text, speed = 20) {
+      el.textContent = "";
+      let i = 0;
+
+      const interval = setInterval(() => {
+        el.textContent += text[i];
+        i++;
+        if (i >= text.length) clearInterval(interval);
+      }, speed);
+    }
+
+    function updateStatus() {
+      if (!statusEl) return;
+      typeText(statusEl, randomMessage());
+    }
+
+    updateStatus();
+    setInterval(updateStatus, 1500 + Math.random() * 1000);
+  </script>
+
+  <script src="flutter_bootstrap.js"></script>
+</body>
+
+</html>

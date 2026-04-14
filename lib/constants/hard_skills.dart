@@ -1,0 +1,21 @@
+const hardSkills = [
+  'Ant Design',
+  'Axios',
+  'CSS',
+  'Dart',
+  'Firebase',
+  'Flutter',
+  'Formik',
+  'Git',
+  'HTML',
+  'JavaScript',
+  'JSON',
+  'Material UI',
+  'Provider',
+  'React',
+  'Redux',
+  'Riverpod',
+  'Storybook',
+  'TypeScript',
+  'UX'
+];
