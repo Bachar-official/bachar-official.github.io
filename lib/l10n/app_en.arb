@@ -11,12 +11,13 @@
     "anotherLanguage": "Переключиться на русский",
     "lightTheme": "Light theme",
     "darkTheme": "Dark theme",
+    "aboutMe": "About me",
     "experience": "Experience",
     "education": "Education",
     "languages": "Languages",
     "hobbies": "Hobbies",
     "cources": "Courses",
-    "hardSkills": "Hard skills",
+    "techStack": "Tech stack",
     "currentCity": "Orenburg, Russia",
     "untilNow": "until now",
     "exp0": "Cinimex:Senior Developer:Frontend development in various design systems for the banking sector. Creation a corporate UI-kit.:2019-10-01",
@@ -45,5 +46,11 @@
     "softSkills": "Soft skills",
     "allSoftSkills": "Public speaking,Teaching,Self-learning,Responsibility,Determination,Enthusiasm",
     "pdfFlutterExp0": "Cinimex:Senior Developer:Implemented a corporate mobile app storage system (Flutter + Dart + PostgreSQL) - APK/IPA recognition, admin panel, update tracking;Developed a mobile app for a merch store from scratch using Flutter with CI/CD via GitLab Runner;Participated in pre-sales and solution architecture design;Developed and supported a corporate UI kit;Configured CI/CD (GitLab Runner, GitHub Workflow);Conducted code reviews, interviews, and mentoring;Served as a leader of the Flutter community within the company (meetups, implementation of new practices);Supervised student pre-graduation internships (OpenAPI/Swagger for frontend):2019-10-01",
-    "pdfReactExp0": "Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01"
+    "pdfReactExp0": "Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01",
+    "builtWithFlutter": "Built with",
+    "reactHardSkills": "React ecosystem:React 18+;JavaScript;TypeScript;Redux Toolkit;React Query",
+    "designLibrariesHardSkills": "Design libraries:Material UI;Mantine UI;Omni UI;Admiral UI;Ant Design",
+    "flutterHardSkills": "Flutter ecosystem:Flutter (Android/Linux/Windows);Dart;Provider;Riverpod;yx_state;yx_scope;dio;Firebase;Platform Channels",
+    "toolsHardSkills": "Tools and practices:GitLab Runner;GitHub Workflow;Docker;Unit & integration testing;Code review culture",
+    "miscHardSkills": "Misc:git;Storybook;Axios;CSS;Formik;HTML;JSON;Linux"
 }

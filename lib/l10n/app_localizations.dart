@@ -164,6 +164,12 @@ abstract class AppLocalizations {
   /// **'Dark theme'**
   String get darkTheme;
 
+  /// No description provided for @aboutMe.
+  ///
+  /// In en, this message translates to:
+  /// **'About me'**
+  String get aboutMe;
+
   /// No description provided for @experience.
   ///
   /// In en, this message translates to:
@@ -194,11 +200,11 @@ abstract class AppLocalizations {
   /// **'Courses'**
   String get cources;
 
-  /// No description provided for @hardSkills.
+  /// No description provided for @techStack.
   ///
   /// In en, this message translates to:
-  /// **'Hard skills'**
-  String get hardSkills;
+  /// **'Tech stack'**
+  String get techStack;
 
   /// No description provided for @currentCity.
   ///
@@ -373,6 +379,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students\' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01'**
   String get pdfReactExp0;
+
+  /// No description provided for @builtWithFlutter.
+  ///
+  /// In en, this message translates to:
+  /// **'Built with'**
+  String get builtWithFlutter;
+
+  /// No description provided for @reactHardSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'React ecosystem:React 18+;JavaScript;TypeScript;Redux Toolkit;React Query'**
+  String get reactHardSkills;
+
+  /// No description provided for @designLibrariesHardSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'Design libraries:Material UI;Mantine UI;Omni UI;Admiral UI;Ant Design'**
+  String get designLibrariesHardSkills;
+
+  /// No description provided for @flutterHardSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'Flutter ecosystem:Flutter (Android/Linux/Windows);Dart;Provider;Riverpod;yx_state;yx_scope;dio;Firebase;Platform Channels'**
+  String get flutterHardSkills;
+
+  /// No description provided for @toolsHardSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'Tools and practices:GitLab Runner;GitHub Workflow;Docker;Unit & integration testing;Code review culture'**
+  String get toolsHardSkills;
+
+  /// No description provided for @miscHardSkills.
+  ///
+  /// In en, this message translates to:
+  /// **'Misc:git;Storybook;Axios;CSS;Formik;HTML;JSON;Linux'**
+  String get miscHardSkills;
 }
 
 class _AppLocalizationsDelegate

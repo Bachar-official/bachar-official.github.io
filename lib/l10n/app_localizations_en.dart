@@ -42,6 +42,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get darkTheme => 'Dark theme';
 
   @override
+  String get aboutMe => 'About me';
+
+  @override
   String get experience => 'Experience';
 
   @override
@@ -57,7 +60,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cources => 'Courses';
 
   @override
-  String get hardSkills => 'Hard skills';
+  String get techStack => 'Tech stack';
 
   @override
   String get currentCity => 'Orenburg, Russia';
@@ -157,4 +160,27 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get pdfReactExp0 =>
       'Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students\' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01';
+
+  @override
+  String get builtWithFlutter => 'Built with';
+
+  @override
+  String get reactHardSkills =>
+      'React ecosystem:React 18+;JavaScript;TypeScript;Redux Toolkit;React Query';
+
+  @override
+  String get designLibrariesHardSkills =>
+      'Design libraries:Material UI;Mantine UI;Omni UI;Admiral UI;Ant Design';
+
+  @override
+  String get flutterHardSkills =>
+      'Flutter ecosystem:Flutter (Android/Linux/Windows);Dart;Provider;Riverpod;yx_state;yx_scope;dio;Firebase;Platform Channels';
+
+  @override
+  String get toolsHardSkills =>
+      'Tools and practices:GitLab Runner;GitHub Workflow;Docker;Unit & integration testing;Code review culture';
+
+  @override
+  String get miscHardSkills =>
+      'Misc:git;Storybook;Axios;CSS;Formik;HTML;JSON;Linux';
 }

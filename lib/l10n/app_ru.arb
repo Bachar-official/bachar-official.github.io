@@ -11,12 +11,13 @@
     "anotherLanguage": "Switch to English",
     "lightTheme": "Светлая тема",
     "darkTheme": "Тёмная тема",
+    "aboutMe": "Обо мне",
     "experience": "Опыт работы",
     "education": "Образование",
     "languages": "Языки",
     "hobbies": "Хобби",
     "cources": "Курсы",
-    "hardSkills": "Навыки",
+    "techStack": "Технический стек",
     "currentCity": "Оренбург, Россия",
     "untilNow": "по настоящее время",
     "exp0": "Cinimex:Старший разработчик:Разработка фронтенда в различных дизайн-системах для банковского сектора. Создание корпоративного UI-kit.:2019-10-01",
@@ -45,5 +46,11 @@
     "softSkills": "Метанавыки",
     "allSoftSkills": "Публичные выступления,Преподавание,Самообучаемость,Ответственность,Целеустремлённость,Энтузиазм",
     "pdfFlutterExp0": "Cinimex:Старший разработчик:Реализовал корпоративное хранилище мобильных приложений (Flutter + Dart + PostgreSQL) - распознавание APK/IPA, админка, отслеживание обновлений;Разработал с нуля мобильное приложение для магазина мерча на Flutter с CI/CD через GitLab Runner;Участвовал в пресейле и проектировании архитектуры решений;Разработал и поддерживал корпоративный UI-kit;Настраивал CI/CD (GitLab Runner, GitHub Workflow);Проводил код-ревью, собеседования, менторинг;Был лидером Flutter-сообщества внутри компании (митапы, внедрение новых практик);Руководил преддипломной практикой студентов (OpenAPI/Swagger для фронтенда):2019-10-01",
-    "pdfReactExp0": "Cinimex:Старший разработчик:Разработал конфигурируемую архитектуру React-приложения (микрофронтенд, Webpack, динамические маршруты), сократив дублирование кода между проектами;Обеспечил стабильную поддержку легаси-проекта на классовых компонентах React без роста техдолга;Внедрил интеграцию с Keycloak - токены, сессии, ролевая маршрутизация, подтверждение по телефону;Участвовал в пресейле - архитектура с WebAssembly (Clang + Emscripten), оценка трудоёмкости;Разработал кастомизируемый UI-kit на базе Mantine (Figma, CI/CD через GitLab Runner в Artifactory);Проводил код-ревью, собеседования, менторинг;Руководил преддипломной практикой студентов (OpenAPI/Swagger для фронтенда):2019-10-01"
+    "pdfReactExp0": "Cinimex:Старший разработчик:Разработал конфигурируемую архитектуру React-приложения (микрофронтенд, Webpack, динамические маршруты), сократив дублирование кода между проектами;Обеспечил стабильную поддержку легаси-проекта на классовых компонентах React без роста техдолга;Внедрил интеграцию с Keycloak - токены, сессии, ролевая маршрутизация, подтверждение по телефону;Участвовал в пресейле - архитектура с WebAssembly (Clang + Emscripten), оценка трудоёмкости;Разработал кастомизируемый UI-kit на базе Mantine (Figma, CI/CD через GitLab Runner в Artifactory);Проводил код-ревью, собеседования, менторинг;Руководил преддипломной практикой студентов (OpenAPI/Swagger для фронтенда):2019-10-01",
+    "builtWithFlutter": "Сделано на",
+    "reactHardSkills": "Экосистема React:React 18+;JavaScript;TypeScript;Redux Toolkit;React Query",
+    "designLibrariesHardSkills": "UI библиотеки:Material UI;Mantine UI;Omni UI;Admiral UI;Ant Design",
+    "flutterHardSkills": "Экосистема Flutter:Flutter (Android/Linux/Windows);Dart;Provider;Riverpod;yx_state;yx_scope;dio;Firebase;Platform Channels",
+    "toolsHardSkills": "Инструменты и практики:GitLab Runner;GitHub Workflow;Docker;Unit & integration testing;Code review culture",
+    "miscHardSkills": "Остальное:git;Storybook;Axios;CSS;Formik;HTML;JSON;Linux"
 }

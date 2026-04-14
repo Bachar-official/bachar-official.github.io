@@ -19,6 +19,7 @@ class ProjectTile extends StatelessWidget {
             child: Text(
               project.url,
               textAlign: TextAlign.start,
+              style: const TextStyle(decoration: TextDecoration.underline),
             ),
           ),
         ],

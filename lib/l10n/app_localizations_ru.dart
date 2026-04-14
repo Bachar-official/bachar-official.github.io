@@ -42,6 +42,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get darkTheme => 'Тёмная тема';
 
   @override
+  String get aboutMe => 'Обо мне';
+
+  @override
   String get experience => 'Опыт работы';
 
   @override
@@ -57,7 +60,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get cources => 'Курсы';
 
   @override
-  String get hardSkills => 'Навыки';
+  String get techStack => 'Технический стек';
 
   @override
   String get currentCity => 'Оренбург, Россия';
@@ -157,4 +160,27 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get pdfReactExp0 =>
       'Cinimex:Старший разработчик:Разработал конфигурируемую архитектуру React-приложения (микрофронтенд, Webpack, динамические маршруты), сократив дублирование кода между проектами;Обеспечил стабильную поддержку легаси-проекта на классовых компонентах React без роста техдолга;Внедрил интеграцию с Keycloak - токены, сессии, ролевая маршрутизация, подтверждение по телефону;Участвовал в пресейле - архитектура с WebAssembly (Clang + Emscripten), оценка трудоёмкости;Разработал кастомизируемый UI-kit на базе Mantine (Figma, CI/CD через GitLab Runner в Artifactory);Проводил код-ревью, собеседования, менторинг;Руководил преддипломной практикой студентов (OpenAPI/Swagger для фронтенда):2019-10-01';
+
+  @override
+  String get builtWithFlutter => 'Сделано на';
+
+  @override
+  String get reactHardSkills =>
+      'Экосистема React:React 18+;JavaScript;TypeScript;Redux Toolkit;React Query';
+
+  @override
+  String get designLibrariesHardSkills =>
+      'UI библиотеки:Material UI;Mantine UI;Omni UI;Admiral UI;Ant Design';
+
+  @override
+  String get flutterHardSkills =>
+      'Экосистема Flutter:Flutter (Android/Linux/Windows);Dart;Provider;Riverpod;yx_state;yx_scope;dio;Firebase;Platform Channels';
+
+  @override
+  String get toolsHardSkills =>
+      'Инструменты и практики:GitLab Runner;GitHub Workflow;Docker;Unit & integration testing;Code review culture';
+
+  @override
+  String get miscHardSkills =>
+      'Остальное:git;Storybook;Axios;CSS;Formik;HTML;JSON;Linux';
 }

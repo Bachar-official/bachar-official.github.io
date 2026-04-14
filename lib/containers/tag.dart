@@ -8,7 +8,7 @@ class Tag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 6.0),
+      padding: const EdgeInsets.symmetric(horizontal: 6.0, vertical: 3.0),
       decoration: BoxDecoration(
         color: color ?? Colors.green,
         borderRadius: BorderRadius.circular(20.0),
@@ -17,7 +17,7 @@ class Tag extends StatelessWidget {
         text,
         style: const TextStyle(
           color: Colors.white,
-          fontSize: 16.0,
+          fontSize: 14.0,
         ),
       ),
     );

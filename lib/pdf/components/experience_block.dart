@@ -49,7 +49,7 @@ class Job extends pw.StatelessWidget {
   @override
   pw.Widget build(pw.Context context) {
     const black = PdfColor.fromInt(0xFF000000);
-    final descriptionPointers = description.split(';').join('\n');
+    final descriptionPointers = description.split(';').map((text) => '• $text').join('\n');
 
     return pw.Column(
       crossAxisAlignment: pw.CrossAxisAlignment.start,

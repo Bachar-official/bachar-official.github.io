@@ -54,9 +54,15 @@ class ProfileScreen extends ConsumerWidget {
     final skillsWidget = HideableWidget(
       trigger: manager.collectIsCollapsed,
       key: manager.skillsK,
-      isRow: true,
-      title: locale.hardSkills,
-      content: hardSkills.map((skill) => Tag(text: skill)).toList(),
+      isRow: false,
+      title: locale.techStack,
+      content: [
+        locale.reactHardSkills,
+        locale.designLibrariesHardSkills,
+        locale.flutterHardSkills,
+        locale.toolsHardSkills,
+        locale.miscHardSkills
+      ].map((string) => HardSkillBlock(localeString: string)).toList(),
     );
 
     final softSkillsWidget = HideableWidget(
@@ -124,6 +130,8 @@ class ProfileScreen extends ConsumerWidget {
             ),
           )
         : Scaffold(
+          resizeToAvoidBottomInset: true,
+          bottomNavigationBar: const Footer(),
             appBar: AppBar(
               actions: [
                 LangButton(

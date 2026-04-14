@@ -8,9 +8,8 @@ ORG:Cinimex
 LANG:en-US
 ROLE:Frontend/Flutter developer
 TITLE:Frontend/Flutter developer
-EMAIL;TYPE=work:ibacharnikov@cinimex.ru
-EMAIL,TYPE=personal:cjba4ar@gmail.com
-URL:https://bachar-official.github.io/profile/
+EMAIL;TYPE=personal:ibacharnikov@gmail.com
+URL:https://bachar-official.github.io
 TZ:+05:00
 END:VCARD
 ''';
@@ -22,12 +21,11 @@ N;CHARSET=UTF-8:Бачарников;Иван
 FN;CHARSET=UTF-8:Иван Бачарников
 BDAY:1993-05-19
 ORG:Cinimex
-LANG:en-US
+LANG:ru-RU
 ROLE;CHARSET=UTF-8:Frontend/Flutter разработчик
 TITLE;CHARSET=UTF-8:Frontend/Flutter разработчик
-EMAIL;TYPE=work:ibacharnikov@cinimex.ru
-EMAIL,TYPE=personal:cjba4ar@gmail.com
-URL:https://bachar-official.github.io/profile/
+EMAIL;TYPE=personal:ibacharnikov@gmail.com
+URL:https://bachar-official.github.io
 TZ:+05:00
 END:VCARD
 ''';
