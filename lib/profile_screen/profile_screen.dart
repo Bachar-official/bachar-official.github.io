@@ -5,8 +5,8 @@ import 'package:profile/constants/constants.dart';
 import 'package:profile/containers/index.dart';
 import 'package:profile/entity/course.dart';
 import 'package:profile/l10n/app_localizations.dart';
-import './profile_holder.dart';
-import './profile_state.dart';
+import 'profile_holder.dart';
+import 'profile_state.dart';
 
 final provider =
     StateNotifierProvider<ProfileHolder, ProfileState>((ref) => di.holder);
@@ -37,7 +37,7 @@ class ProfileScreen extends ConsumerWidget {
       content: [
         ExperienceStepper(
             localeCode: locale.code,
-            localeStrings: [locale.exp0, locale.exp1, locale.exp2],
+            localeStrings: [locale.exp0, locale.exp1, locale.exp2, locale.exp3],
             untilNow: locale.untilNow),
       ],
     );

@@ -63,7 +63,7 @@ import 'app_localizations_ru.dart';
 /// property.
 abstract class AppLocalizations {
   AppLocalizations(String locale)
-      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -86,16 +86,16 @@ abstract class AppLocalizations {
   /// of delegates is preferred or required.
   static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
       <LocalizationsDelegate<dynamic>>[
-    delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
-  ];
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('ru')
+    Locale('ru'),
   ];
 
   /// No description provided for @code.
@@ -221,20 +221,26 @@ abstract class AppLocalizations {
   /// No description provided for @exp0.
   ///
   /// In en, this message translates to:
-  /// **'Cinimex:Senior Developer:Frontend development in various design systems for the banking sector. Creation a corporate UI-kit.:2019-10-01'**
+  /// **'Finam:Leading specialist:Development and integration of personal account modules. Writing and implementing skills for local AI models.:2026-05-01'**
   String get exp0;
-
-  /// No description provided for @exp2.
-  ///
-  /// In en, this message translates to:
-  /// **'Orenburg State University:Senior Lecturer:Taught the disciplines \"Development of mobile applications (Flutter)\" and \"Development of client web applications (React)\":2023-09-01:2023-12-01'**
-  String get exp2;
 
   /// No description provided for @exp1.
   ///
   /// In en, this message translates to:
-  /// **'aurorafirst.ai:Flutter developer:Development of new and modification of old widgets for AI assistant:2024-09-01:2024-12-01'**
+  /// **'Cinimex:Senior Developer:Frontend development in various design systems for the banking sector. Creation a corporate UI-kit.:2019-10-01:2026-05-01'**
   String get exp1;
+
+  /// No description provided for @exp3.
+  ///
+  /// In en, this message translates to:
+  /// **'Orenburg State University:Senior Lecturer:Taught the disciplines \"Development of mobile applications (Flutter)\" and \"Development of client web applications (React)\":2023-09-01:2023-12-01'**
+  String get exp3;
+
+  /// No description provided for @exp2.
+  ///
+  /// In en, this message translates to:
+  /// **'aurorafirst.ai:Flutter developer:Development of new and modification of old widgets for AI assistant:2024-09-01:2024-12-01'**
+  String get exp2;
 
   /// No description provided for @ed1.
   ///
@@ -368,17 +374,17 @@ abstract class AppLocalizations {
   /// **'Public speaking,Teaching,Self-learning,Responsibility,Determination,Enthusiasm'**
   String get allSoftSkills;
 
-  /// No description provided for @pdfFlutterExp0.
+  /// No description provided for @pdfFlutterExp1.
   ///
   /// In en, this message translates to:
   /// **'Cinimex:Senior Developer:Implemented a corporate mobile app storage system (Flutter + Dart + PostgreSQL) - APK/IPA recognition, admin panel, update tracking;Developed a mobile app for a merch store from scratch using Flutter with CI/CD via GitLab Runner;Participated in pre-sales and solution architecture design;Developed and supported a corporate UI kit;Configured CI/CD (GitLab Runner, GitHub Workflow);Conducted code reviews, interviews, and mentoring;Served as a leader of the Flutter community within the company (meetups, implementation of new practices);Supervised student pre-graduation internships (OpenAPI/Swagger for frontend):2019-10-01'**
-  String get pdfFlutterExp0;
+  String get pdfFlutterExp1;
 
-  /// No description provided for @pdfReactExp0.
+  /// No description provided for @pdfReactExp1.
   ///
   /// In en, this message translates to:
   /// **'Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students\' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01'**
-  String get pdfReactExp0;
+  String get pdfReactExp1;
 
   /// No description provided for @builtWithFlutter.
   ///
@@ -444,8 +450,9 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   }
 
   throw FlutterError(
-      'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-      'an issue with the localizations generation tool. Please file an issue '
-      'on GitHub with a reproducible sample app and the gen-l10n configuration '
-      'that was used.');
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
 }

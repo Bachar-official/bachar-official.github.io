@@ -1,11 +1,11 @@
 {
-    "name": "Ivan Bacharnikov",
-    "short_name": "Ivan Bacharnikov",
+    "name": "new_profile",
+    "short_name": "new_profile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "CV page.",
+    "description": "Portfolio page",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

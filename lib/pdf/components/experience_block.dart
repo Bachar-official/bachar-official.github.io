@@ -12,7 +12,7 @@ class ExperienceBlock extends pw.StatelessWidget {
 
   @override
   pw.Widget build(pw.Context context) {
-    final List<Experience> xps = [isFlutter ? locale.pdfFlutterExp0 : locale.pdfReactExp0, locale.exp1, locale.exp2]
+    final List<Experience> xps = [locale.exp0, isFlutter ? locale.pdfFlutterExp1 : locale.pdfReactExp1, locale.exp2, locale.exp3]
         .map((e) => Experience.fromLocalization(e))
         .toList();
     return pw.Column(
