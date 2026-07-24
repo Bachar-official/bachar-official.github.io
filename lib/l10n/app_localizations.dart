@@ -377,13 +377,13 @@ abstract class AppLocalizations {
   /// No description provided for @pdfFlutterExp1.
   ///
   /// In en, this message translates to:
-  /// **'Cinimex:Senior Developer:Implemented a corporate mobile app storage system (Flutter + Dart + PostgreSQL) - APK/IPA recognition, admin panel, update tracking;Developed a mobile app for a merch store from scratch using Flutter with CI/CD via GitLab Runner;Participated in pre-sales and solution architecture design;Developed and supported a corporate UI kit;Configured CI/CD (GitLab Runner, GitHub Workflow);Conducted code reviews, interviews, and mentoring;Served as a leader of the Flutter community within the company (meetups, implementation of new practices);Supervised student pre-graduation internships (OpenAPI/Swagger for frontend):2019-10-01'**
+  /// **'Cinimex:Senior Developer:Implemented a corporate mobile app storage system (Flutter + Dart + PostgreSQL) - APK/IPA recognition, admin panel, update tracking;Developed a mobile app for a merch store from scratch using Flutter with CI/CD via GitLab Runner;Participated in pre-sales and solution architecture design;Developed and supported a corporate UI kit;Configured CI/CD (GitLab Runner, GitHub Workflow);Conducted code reviews, interviews, and mentoring;Served as a leader of the Flutter community within the company (meetups, implementation of new practices);Supervised student pre-graduation internships (OpenAPI/Swagger for frontend):2019-10-01:2026-05-01'**
   String get pdfFlutterExp1;
 
   /// No description provided for @pdfReactExp1.
   ///
   /// In en, this message translates to:
-  /// **'Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students\' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01'**
+  /// **'Cinimex:Senior Developer:Developed a configurable architecture for a React application (microfrontend, Webpack, dynamic routes), reducing code duplication between projects;Ensured stable support for a legacy project based on React class components without increasing technical debt;Implemented integration with Keycloak - tokens, sessions, role-based routing, phone confirmation;Participated in the pre-sale - architecture with WebAssembly (Clang + Emscripten), labor intensity assessment;Developed a customizable UI kit based on Mantine (Figma, CI/CD via GitLab Runner in Artifactory);Conducted code reviews, interviews, mentoring;Supervised students\' pre-graduation internship (OpenAPI/Swagger for frontend):2019-10-01:2026-05-01'**
   String get pdfReactExp1;
 
   /// No description provided for @builtWithFlutter.
