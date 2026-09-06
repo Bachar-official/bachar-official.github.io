@@ -221,7 +221,7 @@ abstract class AppLocalizations {
   /// No description provided for @exp0.
   ///
   /// In en, this message translates to:
-  /// **'Finam:Leading specialist:Development and integration of personal account modules. Writing and implementing skills for local AI models.:2026-05-01'**
+  /// **'Finam:Leading specialist:Development and integration of personal account modules. Writing and implementing skills for local AI models. Developing a universal Flutter module for embedding into multiple mobile applications.:2026-05-01'**
   String get exp0;
 
   /// No description provided for @exp1.

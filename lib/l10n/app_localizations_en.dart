@@ -70,7 +70,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get exp0 =>
-      'Finam:Leading specialist:Development and integration of personal account modules. Writing and implementing skills for local AI models.:2026-05-01';
+      'Finam:Leading specialist:Development and integration of personal account modules. Writing and implementing skills for local AI models. Developing a universal Flutter module for embedding into multiple mobile applications.:2026-05-01';
 
   @override
   String get exp1 =>
